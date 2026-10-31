@@ -228,7 +228,7 @@ restore
 
 preserve
     statsby beta = _b[policy] se = _se[policy], by(month) clear: ///
-        reghdfe tcdi_im policy, absorb(city_code) vce(cluster city_code month_id)
+        reghdfe tcdi_im policy, absorb(city_code month_id) vce(cluster city_code)
 
     gen double ci_lo = beta - invnormal(0.975) * se
     gen double ci_hi = beta + invnormal(0.975) * se
