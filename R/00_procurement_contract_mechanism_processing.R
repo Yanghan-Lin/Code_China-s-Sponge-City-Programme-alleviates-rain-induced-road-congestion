@@ -1,7 +1,7 @@
 # -*- coding: UTF-8 -*-
 ################################################################################
 # Project: China's Sponge City Programme and rain-induced road congestion
-# File:    01_procurement_contract_mechanism_processing.R
+# File:    00_procurement_contract_mechanism_processing.R
 # Purpose: Classify sponge-related procurement contracts and build city-year
 #          procurement mechanism variables for Fig. 4
 # Author:  Yanghan Lin et al.
